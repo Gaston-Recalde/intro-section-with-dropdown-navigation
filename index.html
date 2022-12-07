@@ -11,25 +11,94 @@
 
 </head>
 <body>
+  <nav class="nav">
 
-  Features
-  Company
-  Careers
-  About
+    <div class="nav__logo">
+      <img src="./images/logo.svg" alt="Logo snap">
+    </div>
 
-  Login
-  Register
+    <div class="nav__container">
 
-  Make remote work
+      <ul class="nav__ul">
 
-  Get your team in sync, no matter your location. Streamline processes, 
-  create team rituals, and watch productivity soar.
+        <li>
+          <a href="#" class="ul__info">Features</a>
+          <img src="./images/icon-arrow-down.svg" alt="Icon arrow down" class="arrow__down">
+          <img src="./images/icon-arrow-up.svg" alt="Icon arrow up" class="arrow__up">
+          
+          <ul class="info__1">
+            <li><img src="./images/icon-todo.svg" alt="Icon todo"><a href="#">Todo List</a></li>
+            <li><img src="./images/icon-calendar.svg" alt="Icon calender"><a href="#">Calendar</a></li>
+            <li><img src="./images/icon-reminders.svg" alt="Icon reminders"><a href="#">Reminders</a></li>
+            <li><img src="./images/icon-planning.svg" alt="Icon planning"><a href="#">Planning</a></li>
+          </ul>
 
-  Learn more
+        </li>
+
+        <li>
+          <a href="#" class="ul__info">Company</a>
+          <img src="./images/icon-arrow-down.svg" alt="Icon arrow down" class="arrow__down">
+          <img src="./images/icon-arrow-up.svg" alt="Icon arrow up" class="arrow__up">
+          
+          <ul class="info__1">
+            <li><a href="#">History</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+
+        </li>
+        
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">About</a></li>
+
+        <ul class="ul__buttons">
+          <li class="li__button">Login</li>
+          <li class="li__button li--register">Register</li>
+        </ul>
+
+      </ul>
+
+
+    </div>
+
+    <div class="nav__menu"><img src="./images/icon-menu.svg" alt="Icon menu"></div>
+    <div class="nav__close"><img src="./images/icon-close-menu.svg" alt="Icon close"></div>
+
+  </nav>
+
+  <main class="main__container">
+
+    <header class="header">
+      <div class="header__hero">
+        <img src="./images/image-hero-mobile.png" alt="Image Hero" class="hero__mobil">
+        <img src="./images/image-hero-desktop.png" alt="Image Desktop" class="hero__desktop">
+      </div>
+    </header>
+
+    <article class="info">
+
+      <h1 class="info__h1">Make remote work</h1>
+      <p class="info__p">Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.</p>
+      
+      <button class="info__button">Learn more</button>
+
+      <div class="info__logos">
+        <img src="./images/client-databiz.svg" alt="Client databiz" class="info__logo">
+        <img src="./images/client-audiophile.svg" alt="Client audiophile" class="info__logo">
+        <img src="./images/client-meet.svg" alt="Client meet" class="info__logo">
+        <img src="./images/client-maker.svg" alt="Client maker" class="info__logo">
+      </div>
+
+    </article>
+
+  </main>
   
-  <!-- <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
+    Coded by <a href="https://gaston-recalde-portafolio.netlify.app" target="_blank">Gastón Recalde</a>.
+  </footer>
+
+  <script src="main.js"></script>
 </body>
 </html>
